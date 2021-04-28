@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+nav {
+  background-color: gray;
+}
+nav .wrap {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+nav h1 {
+  letter-spacing: 3px;
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+ul li {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
